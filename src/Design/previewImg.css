@@ -1,0 +1,98 @@
+
+.container .rightSide .preview_img1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 89.8%;
+    padding: 20px;
+    background: rgba(225, 228, 229, 0.1);
+    justify-content: center;
+  }
+  
+  .preview_img1 .preview_img img {
+    position: absolute;
+    top:30;
+    right: 170px;
+    width: 45%;
+    padding: 65px 45px 45px 45px;
+    /* height: 45%; */
+  }
+  
+  .preview_img1 #icon1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: black;
+  }
+
+
+  .preview_img1  .preview_img_input_data {
+     position: absolute;  
+     bottom: 90px;
+ }
+
+ .preview_img_input_data  input {
+     width: 480px;
+     height: 33px;
+     border: white;
+     border-radius: 5px;
+     padding-left: 10px;
+ }
+
+ .preview_img1 .preview_img_demo img {
+    position: absolute;
+    bottom:23px;
+    width: 7%;
+    height: 8%;
+    border: 2px solid var(--mychat_color);
+  }
+
+  
+  .preview_img1 .preview_img_send_icon {
+    background: var(--blur-color);
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    bottom: 23px;
+    right: 25px;
+    cursor: pointer;
+    color: var(--white_color);
+}
+
+.preview_img_input_data i{
+    position: absolute;
+    top:7px;
+    right: 7px;
+}
+
+.preview_img1 {
+    position: relative;
+}
+
+.preview_img1 .emoji-picker-preview {
+    top: 100px;
+    right: 70px;
+    height: 200px;
+    position: absolute;
+    width: 50%; 
+    border: none;
+    outline: none;
+    background: var(--white_color);
+}
+
+.preview_img1 .emoji-picker-preview::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -13px;
+    right: 15px;
+    width: 17px;
+    height: 17px;
+    margin-top: 5px;
+    background: linear-gradient(225deg,
+    white 0%,
+    white  50%,
+        transparent 50%,
+        transparent);
+  }
